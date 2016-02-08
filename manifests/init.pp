@@ -21,7 +21,7 @@ class user (
   }
 
   if $user_list {
-    create_resources ( user, hiera_hash('user::yum_repos_list'), $defaults )
+    create_resources ( user, hiera_hash('user::user_list'), $defaults )
   }
 
 }
