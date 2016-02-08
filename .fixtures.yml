@@ -4,4 +4,4 @@ fixtures:
       repo: 'git://github.com/puppetlabs/puppetlabs-stdlib.git'
       ref: '4.1.0'
   symlinks:
-    user: "#{source_dir}"
+    user_group: "#{source_dir}"
