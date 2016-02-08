@@ -13,7 +13,7 @@
 #
 class user (
   $user_list = undef,
-  $if_noop    = $::clientnoop,
+  $if_noop   = $::clientnoop,
 ) {
 
   $defaults = {
